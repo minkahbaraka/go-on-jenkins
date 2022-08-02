@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'go build 1.18'
+                sh 'go build'
             }
         }
     }
